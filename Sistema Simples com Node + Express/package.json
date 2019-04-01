@@ -1,0 +1,20 @@
+{
+  "name": "website-of-books",
+  "version": "1.0.0",
+  "description": "Example of a book website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayrton Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  }
+}
